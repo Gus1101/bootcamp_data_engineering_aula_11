@@ -1,6 +1,9 @@
 import pandas as pd
 
 class CsvProcessor:
+    """ 
+    Classe para processamento de arquivos CSV
+    """
     def __init__(self, file_path: str):
         self.file_path = file_path
         self.df = None
